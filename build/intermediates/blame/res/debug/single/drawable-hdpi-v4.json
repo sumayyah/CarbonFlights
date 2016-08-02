@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/car_icon_grey.jpg",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/car_icon_grey.jpg"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon_bus_grey.png",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_bus_grey.png"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon_train_grey.png",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_train_grey.png"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_boat.jpg",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_boat.jpg"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_farm.jpg",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_farm.jpg"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_bird.jpg",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_bird.jpg"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_water.jpg",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_water.jpg"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_greenwheat.jpg",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_greenwheat.jpg"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon_bus.png",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_bus.png"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon_app.png",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_app.png"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_maldives.jpg",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_maldives.jpg"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_tracks.jpg",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_tracks.jpg"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_tree.jpg",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_tree.jpg"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon_train.png",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_train.png"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon_plane_grey.png",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_plane_grey.png"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/car_icon.jpg",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/car_icon.jpg"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_wheat.jpg",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_wheat.jpg"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_capital.jpg",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_capital.jpg"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon_plane.png",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_plane.png"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg_palms.jpg",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_palms.jpg"
+    }
+]

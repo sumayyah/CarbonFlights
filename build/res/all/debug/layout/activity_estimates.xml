@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/bg_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_bird"
+        android:scaleType="centerCrop"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollview">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <!--Flights-->
+        <RelativeLayout
+            android:id="@+id/view_flight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e6ffffff"
+            android:padding="10dp"
+            >
+            <ImageView android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/icon_plane_grey"
+                android:gravity="bottom"/>
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                >
+                <ProgressBar
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progress_flight"
+                    android:visibility="visible"
+                    android:layout_centerInParent="true"/>
+
+                    <edu.davis.carbonflights.customviews.CTTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/text_flight"
+                        android:text="0"
+                        android:textColor="@color/CTDarkGrey"
+                        android:textSize="65sp"
+                        android:visibility="gone"
+                        />
+                    <edu.davis.carbonflights.customviews.CTTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/eqText_flight"
+                        android:text="gal"
+                        android:textColor="@color/CTDarkGrey"
+                        android:textSize="65sp"
+                        android:visibility="gone"
+                        android:layout_below="@id/text_flight"
+                        />
+
+                    <edu.davis.carbonflights.customviews.CTTextView
+                        android:id="@+id/kg_flight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kilosCarbon"
+                        android:textColor="@color/CTDarkGrey"
+                        android:textSize="20sp"
+                        android:visibility="gone"
+                        android:layout_toRightOf="@+id/text_flight"
+                        android:layout_alignBaseline="@+id/text_flight"
+                        />
+                    <edu.davis.carbonflights.customviews.CTTextView
+                        android:id="@+id/eq_flight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="gal"
+                        android:textColor="@color/CTDarkGrey"
+                        android:textSize="20sp"
+                        android:visibility="gone"
+                        android:layout_toRightOf="@+id/text_flight"
+                        android:layout_alignBaseline="@+id/eqText_flight"
+                        />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e64c4c4c" />
+
+
+        <!--Trains-->
+        <RelativeLayout
+            android:id="@+id/view_train"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e6ffffff"
+            android:padding="10dp"
+            >
+            <ImageView android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/icon_train_grey"
+                android:gravity="bottom"/>
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                >
+                <ProgressBar
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progress_train"
+                    android:visibility="visible"
+                    android:layout_centerInParent="true"/>
+
+                <edu.davis.carbonflights.customviews.CTTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_train"
+                    android:text="0"
+                    android:textColor="@color/CTDarkGrey"
+                    android:textSize="65sp"
+                    android:visibility="gone"
+                    />
+                <edu.davis.carbonflights.customviews.CTTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eqText_train"
+                    android:text="gal"
+                    android:textColor="@color/CTDarkGrey"
+                    android:textSize="65sp"
+                    android:visibility="gone"
+                    android:layout_below="@id/text_train"
+                    />
+                <edu.davis.carbonflights.customviews.CTTextView
+                    android:id="@+id/kg_train"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kilosCarbon"
+                    android:textColor="@color/CTDarkGrey"
+                    android:textSize="20sp"
+                    android:visibility="gone"
+                    android:layout_toRightOf="@id/text_train"
+                    android:layout_alignBaseline="@id/text_train"
+                    />
+                <edu.davis.carbonflights.customviews.CTTextView
+                    android:id="@+id/eq_train"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="gal"
+                    android:textColor="@color/CTDarkGrey"
+                    android:textSize="20sp"
+                    android:visibility="gone"
+                    android:layout_toRightOf="@id/text_train"
+                    android:layout_alignBaseline="@id/eqText_train"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e64c4c4c" />
+
+        <!--Buses-->
+        <RelativeLayout
+            android:id="@+id/view_bus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e6ffffff"
+            android:padding="10dp"
+            >
+            <ImageView android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/icon_bus_grey"
+                />
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                >
+                <ProgressBar
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progress_bus"
+                    android:layout_centerInParent="true"/>
+
+                <edu.davis.carbonflights.customviews.CTTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_bus"
+                    android:text="0"
+                    android:textColor="@color/CTDarkGrey"
+                    android:textSize="65sp"
+                    android:visibility="gone"
+                    />
+                <edu.davis.carbonflights.customviews.CTTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eqText_bus"
+                    android:text="gal"
+                    android:textColor="@color/CTDarkGrey"
+                    android:textSize="65sp"
+                    android:visibility="gone"
+                    android:layout_below="@id/text_bus"
+                    />
+                <edu.davis.carbonflights.customviews.CTTextView
+                    android:id="@+id/kg_bus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kilosCarbon"
+                    android:textColor="@color/CTDarkGrey"
+                    android:textSize="20sp"
+                    android:visibility="gone"
+                    android:layout_toRightOf="@id/text_bus"
+                    android:layout_alignBaseline="@id/text_bus"
+                    />
+                <edu.davis.carbonflights.customviews.CTTextView
+                    android:id="@+id/eq_bus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="gal"
+                    android:textColor="@color/CTDarkGrey"
+                    android:textSize="20sp"
+                    android:visibility="gone"
+                    android:layout_toRightOf="@id/text_bus"
+                    android:layout_alignBaseline="@id/eqText_bus"
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e64c4c4c" />
+
+        <LinearLayout
+            android:id="@+id/carEquivalentView"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#e6ffffff"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            >
+
+            <edu.davis.carbonflights.customviews.CTTextView
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Metrics Used"
+                android:gravity="center_horizontal"
+                android:textSize="55sp"
+                >
+            </edu.davis.carbonflights.customviews.CTTextView>
+
+            <LinearLayout
+                android:id="@+id/carbonDetail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                >
+                <edu.davis.carbonflights.customviews.CTTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kilosCarbon"
+                    android:textSize="40sp">
+
+                </edu.davis.carbonflights.customviews.CTTextView>
+                <TextView
+                    android:id="@+id/explanationText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/carbonExplanation"
+                    android:padding="10dp">
+                </TextView>
+
+                <!--<ImageView android:layout_width="75dp"-->
+                <!--android:layout_height="75dp"-->
+                <!--android:src="@drawable/icon_plane_grey"/>-->
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/carEqDetail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                >
+                <edu.davis.carbonflights.customviews.CTTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/equivalentTitle"
+                    android:textSize="40sp">
+
+                </edu.davis.carbonflights.customviews.CTTextView>
+                <TextView
+                    android:id="@+id/explanationText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eqExplanation"
+                    android:padding="10dp">
+                </TextView>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout><!-- From: file:/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/activity_estimates.xml -->

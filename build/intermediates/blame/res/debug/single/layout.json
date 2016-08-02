@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/title.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/title.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/layout_train_detail.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/layout_train_detail.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/group_results.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/group_results.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/layout_flight_detail.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/layout_flight_detail.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/group_flight_detail.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/group_flight_detail.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/cell_train_detail.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/cell_train_detail.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/activity_results.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/activity_results.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/cell_flight_detail.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/cell_flight_detail.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/cell_results.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/cell_results.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/activity_detail.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/activity_detail.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/layout_bus_detail.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/layout_bus_detail.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/group_bus_detail.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/group_bus_detail.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/group_train_detail.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/group_train_detail.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/cell_bus_detail.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/cell_bus_detail.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/layout/activity_estimates.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/layout/activity_estimates.xml"
+    }
+]

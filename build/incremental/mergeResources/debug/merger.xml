@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res" >
+            <file
+                name="actionbar_background"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable/actionbar_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="background_image"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable/background_image.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="detail_rect"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable/detail_rect.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="rounded_rect"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable/rounded_rect.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bg_bird"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_bird.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg_boat"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_boat.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg_capital"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_capital.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg_farm"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_farm.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg_greenwheat"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_greenwheat.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg_maldives"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_maldives.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg_palms"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_palms.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg_tracks"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_tracks.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg_tree"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_tree.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg_water"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_water.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg_wheat"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/bg_wheat.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="car_icon"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/car_icon.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="car_icon_grey"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/car_icon_grey.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon_app"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_app.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon_bus"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_bus.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon_bus_grey"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_bus_grey.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon_plane"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_plane.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon_plane_grey"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_plane_grey.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon_train"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_train.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon_train_grey"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-hdpi/icon_train_grey.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg_bird"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/bg_bird.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_boat"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/bg_boat.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_capital"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/bg_capital.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_farm"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/bg_farm.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_greenwheat"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/bg_greenwheat.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_maldives"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/bg_maldives.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_palms"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/bg_palms.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_tracks"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/bg_tracks.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_tree"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/bg_tree.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_water"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/bg_water.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_wheat"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/bg_wheat.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="icon_app"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/icon_app.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="icon_bus"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/icon_bus.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="icon_bus_grey"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/icon_bus_grey.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="icon_plane"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/icon_plane.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="icon_plane_grey"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/icon_plane_grey.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="icon_train"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/icon_train.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="icon_train_grey"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-mdpi/icon_train_grey.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_bird"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/bg_bird.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_boat"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/bg_boat.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_capital"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/bg_capital.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_farm"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/bg_farm.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_greenwheat"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/bg_greenwheat.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_maldives"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/bg_maldives.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_palms"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/bg_palms.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_tracks"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/bg_tracks.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_tree"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/bg_tree.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_water"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/bg_water.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_wheat"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/bg_wheat.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="icon_app"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/icon_app.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="icon_bus"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/icon_bus.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="icon_bus_grey"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/icon_bus_grey.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="icon_plane"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/icon_plane.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="icon_plane_grey"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/icon_plane_grey.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="icon_train"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/icon_train.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="icon_train_grey"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xhdpi/icon_train_grey.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_detail"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/activity_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_estimates"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/activity_estimates.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_results"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/activity_results.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="cell_bus_detail"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/cell_bus_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="cell_flight_detail"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/cell_flight_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="cell_results"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/cell_results.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="cell_train_detail"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/cell_train_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="group_bus_detail"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/group_bus_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="group_flight_detail"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/group_flight_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="group_results"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/group_results.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="group_train_detail"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/group_train_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="layout_bus_detail"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/layout_bus_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="layout_flight_detail"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/layout_flight_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="layout_train_detail"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/layout_train_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="title"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/title.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="detail"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/menu/detail.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="results"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/menu/results.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/values/color.xml"
+                qualifiers="" >
+                <color name="CTyellow" >#F1E4A1
+                </color>
+                <color name="CTbrightRed" >#EA4949
+                </color>
+                <color name="CTBlue" >#5CA5CC
+                </color>
+                <color name="CTgreen" >#9CE994
+                </color>
+                <color name="AndroidGreen" >#A4C739
+                </color>
+                <color name="CTMediumGrey" >#565656
+                </color>
+                <color name="CTDarkGrey" >#444444
+                </color>
+                <color name="CTred" >#FF989A
+                </color>
+                <color name="CTLightGrey" >#D6D6D6
+                </color>
+            </file>
+            <file
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/values/custom_theme.xml"
+                qualifiers="" >
+
+                <style
+                    name="flights_theme"
+                    parent="android:Theme.Holo.Light" >
+                    <item name="android:actionBarStyle">
+@style/flights_theme.ActionBar
+                    </item>
+                    <item name="android:windowActionBarOverlay">
+true
+                    </item>
+                </style>
+
+                <style
+                    name="flights_theme.ActionBar"
+                    parent="android:style/Widget.Holo.Light.ActionBar" >
+                    <item name="android:titleTextStyle">
+@style/flights_theme.ActionBar.TitleTextStyle
+                    </item>
+                    <item name="android:background">
+@drawable/actionbar_background
+                    </item>
+                    <item name="android:displayOptions">
+showTitle|showCustom
+                    </item>
+                </style>
+
+                <style
+                    name="flights_theme_noOverlay"
+                    parent="flights_theme" >
+                    <item name="android:windowActionBarOverlay">
+false
+                    </item>
+                </style>
+
+                <style name="flights_theme.ActionBar.TitleTextStyle" >
+                    <item name="android:typeface">
+monospace
+                    </item>
+                    <item name="android:background">
+@layout/title
+                    </item>
+                    <item name="android:textColor">
+@color/AndroidGreen
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="eqExplanation" >This is how many gallons of gas you would have to burn through to produce these many kilos of carbon.
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="title_activity_results" >Results
+                </string>
+                <string name="title_activity_detail" >Details
+                </string>
+                <string name="app_name" >Carbon Trips
+                </string>
+                <string name="kilosCarbon" >kg CO\u2082
+                </string>
+                <string name="carbonExplanation" >This is the total emissions of the transport in terms of kilograms of carbon dioxide.
+                </string>
+                <string name="destination" >Destination
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="source" >Source
+                </string>
+                <string name="equivalentTitle" >Gallons of Gas
+                </string>
+                <string name="text_carEq" >Cars
+                </string>
+            </file>
+            <file
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="WindowTitleBackground" >
+                    <item name="android:background">
+@drawable/actionbar_background
+                    </item>
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                    <item name="android:windowTitleBackgroundStyle">
+@style/WindowTitleBackground
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                    <item name="android:windowTitleBackgroundStyle">
+@style/WindowTitleBackground
+                    </item>
+                </style>
+
+                <style name="WindowTitleBackground" >
+                    <item name="android:background">
+@drawable/actionbar_background
+                    </item>
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style name="WindowTitleBackground" >
+                    <item name="android:background">
+@drawable/actionbar_background
+                    </item>
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                    <item name="android:windowTitleBackgroundStyle">
+@style/WindowTitleBackground
+                    </item>
+                </style>
+            </file>
+        </source>
+        <source path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/debug/res" />
+    </dataSet>
+
+</merger>

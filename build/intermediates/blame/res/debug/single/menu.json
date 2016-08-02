@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/menu/detail.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/menu/detail.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/build/intermediates/res/merged/debug/menu/results.xml",
+        "source": "/Users/sumayyah/Work/Code/Sample_and_Reference_Projects/CarbonFlights/CarbonFlights/src/main/res/menu/results.xml"
+    }
+]

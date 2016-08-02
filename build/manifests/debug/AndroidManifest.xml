@@ -1,0 +1,25 @@
+<!-- From: file:/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="edu.davis.carbonflights">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16"/>
+
+    <application android:allowBackup="true" android:hardwareAccelerated="false" android:icon="@drawable/icon_app" android:label="@string/app_name" android:name="edu.davis.carbonflights.App" android:theme="@style/flights_theme">
+        <activity android:label="@string/app_name" android:name="edu.davis.carbonflights.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="RESULTS" android:name="edu.davis.carbonflights.activity.ResultsActivity">
+        </activity>
+        <activity android:hardwareAccelerated="true" android:label="DETAILS" android:name="edu.davis.carbonflights.activity.DetailActivity" android:theme="@style/flights_theme_noOverlay">
+        </activity>
+        <activity android:hardwareAccelerated="true" android:label="Averages" android:name="edu.davis.carbonflights.activity.EstimatesActivity" android:theme="@style/flights_theme_noOverlay">
+        </activity>
+    </application>
+
+</manifest>

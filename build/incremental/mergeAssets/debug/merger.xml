@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/assets" >
+            <file
+                name="fonts/JosefinSans-Light.ttf"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/assets/fonts/JosefinSans-Light.ttf" />
+            <file
+                name="fonts/LeagueGothic-Italic.otf"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/assets/fonts/LeagueGothic-Italic.otf" />
+            <file
+                name="fonts/LeagueGothic-Regulary.otf"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/assets/fonts/LeagueGothic-Regulary.otf" />
+            <file
+                name="fonts/Raleway-Thin.ttf"
+                path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/assets/fonts/Raleway-Thin.ttf" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/debug/assets" />
+    </dataSet>
+
+</merger>

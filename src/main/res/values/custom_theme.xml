@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="flights_theme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/flights_theme.ActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="flights_theme.ActionBar" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/flights_theme.ActionBar.TitleTextStyle</item>
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:displayOptions">showTitle|showCustom</item>
+    </style>
+
+    <style name="flights_theme.ActionBar.TitleTextStyle">
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">@layout/title</item>
+        <item name="android:textColor">@color/AndroidGreen</item>
+    </style>
+
+
+    <style name="flights_theme_noOverlay" parent="flights_theme">
+        <item name="android:windowActionBarOverlay">false</item>
+    </style>
+</resources>

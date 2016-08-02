@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Carbon Trips</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_results">Results</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="source">Source</string>
+    <string name="destination">Destination</string>
+    <string name="text_carEq">Cars</string>
+    <string name="kilosCarbon">kg CO\u2082</string>
+    <string name="equivalentTitle">Gallons of Gas</string>
+    <string name="carbonExplanation">This is the total emissions of the transport in terms of kilograms of carbon dioxide.</string>
+    <string name="eqExplanation">This is how many gallons of gas you would have to burn through to produce these many kilos of carbon.</string>
+</resources>

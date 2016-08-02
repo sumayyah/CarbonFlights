@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.davis.carbonflights"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:theme="@style/flights_theme"
+        android:hardwareAccelerated="false">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ResultsActivity"
+            android:label="RESULTS" >
+        </activity>
+        <activity
+            android:name=".activity.DetailActivity"
+            android:label="DETAILS"
+            android:hardwareAccelerated="true"
+            android:theme="@style/flights_theme_noOverlay">
+        </activity>
+        <activity
+            android:name=".activity.EstimatesActivity"
+            android:label="Averages"
+            android:hardwareAccelerated="true"
+            android:theme="@style/flights_theme_noOverlay">
+        </activity>
+    </application>
+
+</manifest>

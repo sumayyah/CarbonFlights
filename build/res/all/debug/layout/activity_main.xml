@@ -1,0 +1,174 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/bg_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_bird"
+        android:scaleType="centerCrop"/>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:padding="40dp"
+                  android:layout_marginTop="?android:attr/actionBarSize"
+                  >
+        <LinearLayout
+                android:id="@+id/searchCard"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_rect"
+                >
+
+            <!-- from -->
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+                <edu.davis.carbonflights.customviews.CTTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fromTV"
+                        android:layout_marginRight="10dp"
+                        android:text="FROM"
+                        android:textColor="@color/CTBlue"
+                        android:textSize="20sp"/>
+                <edu.davis.carbonflights.customviews.CTEditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fromET"
+                        android:background="@null"
+                        android:paddingLeft="5dp"
+                        android:hint="City, Airport"/>
+            </LinearLayout>
+            <!-- from -->
+
+            <View android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:layout_marginTop="10dp"
+                  android:background="#cccccc"/>
+
+            <!-- TO -->
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+                <edu.davis.carbonflights.customviews.CTTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/toTV"
+                        android:text="TO"
+                        android:textColor="@color/CTBlue"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"/>
+
+                <edu.davis.carbonflights.customviews.CTEditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/toET"
+                        android:background="@null"
+                        android:hint="City, Airport"/>
+            </LinearLayout>
+            <!-- TO -->
+
+
+            <View android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:layout_marginTop="10dp"
+                  android:background="#cccccc"/>
+
+            <edu.davis.carbonflights.customviews.CTButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="SEARCH"
+                    android:textSize="20sp"
+                    android:id="@+id/button_search"
+                    android:layout_gravity="center"
+                    android:background="#00b4f63d"
+                    android:textColor="@color/CTBlue"
+                    android:clickable="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <edu.davis.carbonflights.customviews.SlideoutMenu
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/slideout_menu"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_rect"
+        android:visibility="gone"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:padding="40dp"
+        >
+        <edu.davis.carbonflights.customviews.CTTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us  "
+            android:textSize="80sp"
+            android:textColor="#5CA5CC"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hidemenu"
+            android:text="hide menu"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            />
+        <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/scrollview"
+                android:padding="10dp"
+                android:paddingTop="50dp"
+                >
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/scrollViewText"
+                    android:textColor="#000000"
+                    android:textSize="15sp">
+
+            </TextView>
+                </ScrollView>
+    </edu.davis.carbonflights.customviews.SlideoutMenu>
+
+    <edu.davis.carbonflights.customviews.CTTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:text="No Wifi Available"
+        android:textSize="105sp"
+        android:visibility="gone"
+        android:textColor="#dddddd"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout><!-- From: file:/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/activity_main.xml -->

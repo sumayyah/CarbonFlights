@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#66ffffff"
+        >
+    <edu.davis.carbonflights.customviews.CTTextViewItalic
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trip Details"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            />
+    <LinearLayout
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            >
+        <edu.davis.carbonflights.customviews.CTTextViewItalic
+                android:id="@+id/text_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="duration:"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+            />
+        <edu.davis.carbonflights.customviews.CTTextViewItalic
+                android:id="@+id/text_frequency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="frequency:"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+            />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/cell_bus_detail.xml -->

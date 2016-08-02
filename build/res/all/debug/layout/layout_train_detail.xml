@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center">
+
+    <!-- Detail Card -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/train_detail"
+            android:background="#4C4C4C"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+        <edu.davis.carbonflights.customviews.CTTextViewItalic
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_co2"
+                android:text="1920"
+                android:textSize="50sp"
+                android:textColor="#ffffff"
+                />
+        <edu.davis.carbonflights.customviews.CTTextViewItalic
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kg  CO2"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:textStyle="italic"
+                />
+        <edu.davis.carbonflights.customviews.CTTextViewItalic
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" \u2245 "
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:textStyle="italic"
+                />
+        <edu.davis.carbonflights.customviews.CTTextViewItalic
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/equivalent"
+                android:text="Gals"
+                android:textSize="50sp"
+                android:textColor="#ffffff"
+                />
+        <edu.davis.carbonflights.customviews.CTTextViewItalic
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/equivalentTitle"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:textStyle="italic"
+                />
+        <!--<edu.davis.carbonflights.customviews.CTTextViewItalic-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/text_equivalence"-->
+        <!--android:text="? 500 cars driven"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--/>-->
+    </LinearLayout>
+    <!-- End Detail Card -->
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/listview_train"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:footerDividersEnabled="true"
+        android:groupIndicator="@null"
+        android:divider="@null"
+        android:scrollbars="none"
+        />
+
+</LinearLayout><!-- From: file:/Users/sumayyah/Apps/CarbonFlights/CarbonFlights/src/main/res/layout/layout_train_detail.xml -->

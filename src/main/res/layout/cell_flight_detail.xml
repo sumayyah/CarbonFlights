@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#66ffffff"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/times"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <edu.davis.carbonflights.customviews.CTTextViewItalic
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_depart"
+            android:text="Depart"
+            android:textSize="20sp"
+            android:textColor="#5CA5CC"
+            android:layout_alignParentLeft="true"
+            />
+        <edu.davis.carbonflights.customviews.CTTextViewItalic
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_arrive"
+            android:text="Arrive"
+            android:textSize="20sp"
+            android:textColor="#5CA5CC"
+            android:layout_alignParentRight="true"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/details"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:visibility="gone"
+            >
+            <edu.davis.carbonflights.customviews.CTTextViewItalic
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_airline"
+                android:text="Airline"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                />
+            <edu.davis.carbonflights.customviews.CTTextViewItalic
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_flight"
+                android:text="flight 203"
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

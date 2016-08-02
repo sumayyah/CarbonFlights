@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="CTred">#FF989A</color>
+    <color name="CTgreen">#9CE994</color>
+    <color name="CTyellow">#F1E4A1</color>
+    <color name="AndroidGreen">#A4C739</color>
+    <color name="CTbrightRed">#EA4949</color>
+    <color name="CTBlue">#5CA5CC</color>
+    <color name="CTLightGrey">#D6D6D6</color>
+    <color name="CTDarkGrey">#444444</color>
+    <color name="CTMediumGrey">#565656</color>
+
+</resources>
